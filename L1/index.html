@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -78,7 +78,7 @@
 
         <tbody>
             <tr>
-                <td >John Doe</td>
+                <td>John Doe</td>
                 <td>12</td>
                 <td>10th</td>
             </tr>
@@ -100,6 +100,57 @@
             </tr>
         </tfoot>
     </table>
+
+    <br>
+    <h2>Create a Account</h2>
+    <form action="post">
+        <div>
+            <label for="Username">Username</label>
+            <input type="text" id="Username" name="Username" placeholder="Enter your Username" required pattern="[a-zA-Z0-9]+">
+        </div>
+        <br>
+        <div>
+            <label for="Password">Password</label>
+            <input type="password" id="Password" name="Password" placeholder="Enter your password" required>
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="Gender" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="Gender" id="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="Tickmark" id="checkbox" required>
+            <label for="checkbox">Tick this box to agree</label>
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="description">Description</label>
+            <br>
+            <textarea name="Description" id="description" placeholder="Write Something About Yourself." rows="5" cols="25"></textarea>
+        </div>
+
+        <div>
+            <select name="Education" id="education">
+                <option value="SEE">SEE</option>
+                <option value="SLC">SLC</option>
+                <option value="Grad">Grad.</option>
+                <option value= "PostGrad">Post Grad.</option>
+                <option value="PhD">PhD</option>
+            </select>
+        </div>
+        
+        <br>
+
+        <div>
+            <button>Sign Up</button>
+        </div>
+    </form>
 
 </body>
 
