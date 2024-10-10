@@ -2,10 +2,10 @@ td{
     border: 2px solid rgb(0, 0, 0);
 }
 
-p{
+.Inline{
     background-color: aqua;
 }
 
-a{
+#Block{
     background-color: brown;
 }
