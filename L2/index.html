@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>CSS SELECTOR</h1>
+        <ol>
+            <li>Element Selector</li>
+            <li>Class Selector</li>
+            <li>ID Selector</li>
+            <li>Child Selector</li>
+            <li>Descendent Selector</li>
+            <li>Universal Selector</li>
+            <li>Pseudo Selector</li>
+        </ol>
+    </div>
+
+    <div>
+        <h2>Element Selector</h2>
+        <p>
+            div{ <br>
+                color: blue; <br>
+            }
+        </p>
+    </div>
+
+    <div>
+        <h2>Class Selector</h2>
+        <p class="highlight">
+            //highlight is the class in p element <br>
+            .highlight {<br> 
+                color: green; <br>    
+                background-color: yellow; <br>
+            }
+        </p>
+    </div>
+    <div>    
+        <h2>ID Selector</h2>
+        <p id="abcd">
+            //abcd is the id in p element <br>
+            #abcd {<br>     
+                color: red; <br>
+                background-color: yellowgreen; <br>
+            }
+        </p>            
+    </div>
+
+    <div>
+        <h2>Child Selector</h2>
+            <p>
+                //p is a child of div <br>
+                div > h2 { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//div ko direct vitra vako h2 lai select garxa<br>      
+                    color: white; <br>
+                    background-color: darkblue; <br>
+                }
+            </p>
+        <h2>Descendent Selector</h2>
+            <p>
+                //p is a descendant of div <br>
+                div p { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//div ko vitra jata vaye pani vako p lai select garxa<br>      
+                    color: white; <br>
+                    background-color: darkblue; <br>
+                }
+                <br>
+                <span>eg: ABCD</span>
+            </p>
+    </div>
+    <div>
+        <h2>Universal Selector</h2>
+            <p>
+                * { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//selects all elements <br>      
+                    margin: 0; <br>
+                    padding: 0; <br>
+                }
+            </p>
+    </div>
+    <div>
+        <h2>Pseudo Selector</h2>
+            <p>
+                p:hover {<br>
+                    color: darkorange;<br>
+                } <br>
+            </p>
+    </div>
+
+</body>
+</html>

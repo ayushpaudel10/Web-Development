@@ -1,0 +1,32 @@
+div{
+    color: blue;
+}
+
+.highlight { 
+    color: green;   
+    background-color: yellow;
+}
+
+#abcd { 
+    color: red;
+    background-color: yellowgreen;
+}
+
+div > h2 {      
+    color: white;
+    background-color: darkblue;
+}
+
+div span {      
+    color: white;
+    background-color: skyblue;
+}
+
+* {     
+    margin: 0;
+    padding: 1;
+}
+
+p:hover {
+    color: darkorange;
+}
