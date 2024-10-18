@@ -30,3 +30,7 @@ div span {
 p:hover {
     color: darkorange;
 }
+
+h2:hover{
+    color: red
+}
