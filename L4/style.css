@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.box{
+    margin: 10px;
+    padding: 10px;
+    width: 80vw;
+    height: 10vh;
+    border: 2px solid black;
+}
+.box1{
+    background-color: red;
+    position: absolute;
+    top: 0px; 
+    left: 0px;
+}
+.box2{
+    background-color: aqua;
+    position: relative;
+    left: 25px;
+    top: 30px;
+}
+.box3{
+    position: relative;
+    background-color: lightgreen;
+    z-index: 1;
+    
+}
+.box4{
+    background-color: lightpink;
+    position: fixed;
+    left: 10px;  
+}
+.box5{
+    background-color: brown;
+    position: sticky;
+    top: 10px;
+    height: 10px;
+    width: 90%;  
+}
