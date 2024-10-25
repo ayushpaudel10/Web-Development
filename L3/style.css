@@ -1,0 +1,9 @@
+nav ul{
+    display: flex;
+    padding: 10px;
+    background-color: bisque;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px;
+}
