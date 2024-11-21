@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-around;
+}
+
+
+.logo{
+    height: 30px;
+}
+
+ul{
+    display: flex;
+    gap: 25px;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+
+
